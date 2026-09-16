@@ -1,22 +1,22 @@
 class Wxkeep < Formula
   desc "Dual-architecture anti-revoke toolchain for WeChat 4.x on macOS"
   homepage "https://github.com/0xGenesi/wechatkeep"
-  version "0.1.2"
+  version "0.1.3"
   license "AGPL-3.0"
 
   on_macos do
-    url "https://github.com/0xGenesi/wechatkeep/releases/download/v0.1.2/wxkeep"
-    sha256 "38633786a3861fc779990881f43d042beec756b6cace39e86fc26a31eca1bf27"
+    url "https://github.com/0xGenesi/wechatkeep/releases/download/v0.1.3/wxkeep"
+    sha256 "d626f02b9549487492d459267388968ae3b3354243b9d6541d545d39affb31cf"
   end
 
   resource "config" do
     url "https://raw.githubusercontent.com/0xGenesi/wechatkeep/v0.1.2/config.json"
-    sha256 "d4e9ded4df46015456a3ff28bc4b51b1220b4b8ae11c961cebc03d2789e422ee"
+    sha256 "d626f02b9549487492d459267388968ae3b3354243b9d6541d545d39affb31cf"
   end
 
   resource "signatures" do
     url "https://raw.githubusercontent.com/0xGenesi/wechatkeep/v0.1.2/signatures.json"
-    sha256 "642523f3f0db4a6a7437568e8e48595b30fd89e303be3f1e9683f090ec394f3b"
+    sha256 "d626f02b9549487492d459267388968ae3b3354243b9d6541d545d39affb31cf"
   end
 
   def install
