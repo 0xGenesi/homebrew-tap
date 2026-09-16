@@ -6,17 +6,17 @@ class Wxkeep < Formula
 
   on_macos do
     url "https://github.com/0xGenesi/wechatkeep/releases/download/v0.1.2/wxkeep"
-    sha256 "38633786a3861fc779990881f43d042beec756b6cace39e86fc26a31eca1bf27"
+    sha256 ""
   end
 
   resource "config" do
     url "https://raw.githubusercontent.com/0xGenesi/wechatkeep/v0.1.2/config.json"
-    sha256 "38633786a3861fc779990881f43d042beec756b6cace39e86fc26a31eca1bf27"
+    sha256 ""
   end
 
   resource "signatures" do
     url "https://raw.githubusercontent.com/0xGenesi/wechatkeep/v0.1.2/signatures.json"
-    sha256 "38633786a3861fc779990881f43d042beec756b6cace39e86fc26a31eca1bf27"
+    sha256 ""
   end
 
   def install
