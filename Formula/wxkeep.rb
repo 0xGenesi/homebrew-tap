@@ -23,7 +23,7 @@ class Wxkeep < Formula
 
   resource "runtime" do
     url "https://github.com/0xGenesi/wechatkeep/releases/download/v0.2.13/libwxkeep_runtime.dylib"
-    sha256 "cdbd53d7071d606a9d9dea14c0bfebe34e9fdae454355d5c0515aa7377ca4f"
+    sha256 "cdbd53d7071d606a9d9dea14c0bfebe34e9fdae454355d5c5c0515aa7377ca4f"
   end
 
   resource "manifest" do
